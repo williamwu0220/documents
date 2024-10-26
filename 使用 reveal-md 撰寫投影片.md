@@ -2,7 +2,7 @@
 
 ## 什麼是 reveal.js
 
-- [官網] (https://revealjs.com/)
+- [官網](https://revealjs.com/)
 - 是一種投影片框架，特別適合用來撰寫技術相關的投影片。
 - [需撰寫 html 語法](https://revealjs.com/markup/)，語法稍嫌麻煩也不利於版控。
 
