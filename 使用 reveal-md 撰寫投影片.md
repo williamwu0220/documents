@@ -171,7 +171,22 @@ Notes:
 
 ## Fragments 與背景圖案支援
 
-可參考：
+```markdown
+# fragments 範例
+
+* 先出現這行 <!-- .element class="fragment" -->
+* 再出現這行 <!-- .element class="fragment" -->
+
+---
+
+<!-- .slide: data-background="./image1.png" -->
+
+# 背景圖範例
+
+這一頁會有背景圖
+```
+
+詳細說明可參考：
 * https://revealjs.com/markdown/#element-attributes
 * https://revealjs.com/markdown/#slide-attributes
 
