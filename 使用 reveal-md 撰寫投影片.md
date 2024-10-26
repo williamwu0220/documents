@@ -110,7 +110,9 @@ reveal-md hello-reveal.md
 # 這是垂直第一頁
 ```
 
-## 語法上色 (Syntax Highlight)
+## 語法上色與畫圖 (Syntax Highlight & Graph)
+
+畫圖的部分使用的是 [Mermaid](https://mermaid.js.org/) 這套畫圖工具，可以用純文字畫出需要的圖示或流程圖。範例可參考 https://mermaid.js.org/intro/ 。
 
 ````markdown
 上色 Python 程式碼片段：
@@ -119,7 +121,7 @@ reveal-md hello-reveal.md
 print('hello world')
 ```
 
-針對特定行上色語法：
+針對特定行上色語法，並可依序高亮顯示：
 ```python [1|3-6]
 n = 0
 while n < 100:
