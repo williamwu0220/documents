@@ -201,6 +201,16 @@ Notes:
 reveal-md hello-reveal.md --theme dracula
 ```
 
+## iframe 支援
+
+如果想要嵌入 youtube 之類的影片，可以直接貼入 iframe 語法：
+
+```markdown
+# 測試嵌入 youtube 影片
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6-uWaBcqguc?si=bRg-ksQcLgnApFuX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
 ## 輸出
 
 ### 輸出成 pdf
